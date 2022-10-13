@@ -7,6 +7,4 @@
  function ArrayChallenge(arr) { 
     return arr.length - [... new Set(arr)].length; 
   }
-     
-  // keep this function call here 
   console.log(ArrayChallenge(readline()));
